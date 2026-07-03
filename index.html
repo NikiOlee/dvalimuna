@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="Limunada.css" />
+    <title>2 Limuna</title>
+  </head>
+  <body>
+    <header class="normal">
+      <p class="headerTxt">3 Limuna</p>
+      <button id="themeToggle" class="theme-btn">🌙</button>
+      <img src="logo.png" class="logo" />
+    </header>
+
+    <h2 class="section-title">Meni</h2>
+
+    <!-- СЮДА FIREBASE БУДЕТ ВСТАВЛЯТЬ НАПИТКИ -->
+    <div class="main" id="menu-container"></div>
+
+    <h2 class="section-title">Želja</h2>
+<div id="wishes-container" class="wishes-grid">
+    </div>
+    <footer>
+      <p>© 2026 3 Limuna. Osveži se sa stilom! 🍋</p>
+    </footer>
+
+    <script src="Theme.js"></script>
+    <script src="Header.js"></script>
+    <!-- СКРИПТ ДЛЯ FIREBASE -->
+    <script type="module" src="firebase.js"></script>
+  </body>
+</html>
