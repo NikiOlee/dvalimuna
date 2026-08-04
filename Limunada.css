@@ -581,3 +581,7 @@ body.dark-theme footer {
   background-color: #222222;
   border-top-color: #444444;
 }
+.parent {
+  display: flex;
+  justify-content: center;
+}
